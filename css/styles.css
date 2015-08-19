@@ -1,0 +1,65 @@
+*{
+	color:#FBFDFF;
+	font-family: 'Ubuntu';
+	margin:0;
+	padding: 0;
+}
+
+.cabecera{
+	width: 100%;
+	background: #154994;
+	float: left;
+	background: #A02522;
+}
+
+.cabecera h1{
+	width: 13%;
+	float: left;
+	margin-left:11%;
+	margin-top:10px; 
+}
+
+.cabecera nav{
+	background: #A02522;
+	width: 50%;
+	float: right;
+}
+
+.cabecera li{
+	list-style: none;
+	float: left;
+	padding: 20px;
+	margin-left: 10%;
+}
+
+.contenedor-principal{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.contenedor-principal img{
+	width: 100%;
+}
+.contenedor{
+	width: 100%;
+	background: blue;
+}
+
+.contenedor article{
+	width: 50%;
+	background:peru;
+	float: left;
+}
+
+.pie{
+	width: 100%;
+	background: black;
+	color:#fff;
+	box-sizing:border-box;
+	padding: 30px;
+	text-align: center;
+}
+
+.pie footer{
+	margin-top:10%;
+}
