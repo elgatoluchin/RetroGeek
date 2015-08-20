@@ -7,7 +7,7 @@
 
 .cabecera{
 	width: 100%;
-	background: #E12C2D;
+	background:#091229;
 	float: left;
 	
 }
@@ -15,26 +15,20 @@
 .cabecera h1{
 	width: 13%;
 	float: left;
-	margin-left:11%;
+	margin-left:8%;
 	margin-top:10px; 
-	text-align: center;
-}
-
-.cabecera h1:hover{
-	text-align: center;
-	font-size: 33px;
-	text-transform: capitalize;
+		font-size: 33px;
 }
 
 .cabecera nav{
-	background: #E12C2D;
+	background:#091229;
 	width: 50%;
 	float: right;
-	font-weight: bold;
+	font-size: 19px;
 }
 
 .cabecera ul{
-	margin-left:30%;
+	margin-left:28%;
 }
 
 .cabecera li{
@@ -47,8 +41,39 @@
 }
 
 .contenedor-principal{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
+}
+
+.parrafo{
+	position: absolute;
+	text-align: center;
+	margin-top: 19%;
+	margin-left: 10%;
+}	
+
+.parrafo p{
+	font-size: 33px;
+}
+
+.mas-info{
+	margin-top: 20px;
+	border:solid 2px #fff;
+	border-radius: 10px;
+	margin-left: 110px;
+	margin-right: 110px;
+	padding: 15px;
+}
+.mas-info:hover{
+	background:#091229;
+}
+
+.mas-info p{
+	font-size: 24px;
+}
+
+.mas-info a{
+	text-decoration: none;
 }
 
 .contenedor-principal img{
