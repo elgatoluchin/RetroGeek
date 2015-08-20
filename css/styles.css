@@ -7,9 +7,9 @@
 
 .cabecera{
 	width: 100%;
-	background: #154994;
+	background: #E12C2D;
 	float: left;
-	background: #A02522;
+	
 }
 
 .cabecera h1{
@@ -17,32 +17,46 @@
 	float: left;
 	margin-left:11%;
 	margin-top:10px; 
+	text-align: center;
+}
+
+.cabecera h1:hover{
+	text-align: center;
+	font-size: 33px;
+	text-transform: capitalize;
 }
 
 .cabecera nav{
-	background: #A02522;
+	background: #E12C2D;
 	width: 50%;
 	float: right;
+	font-weight: bold;
+}
+
+.cabecera ul{
+	margin-left:30%;
 }
 
 .cabecera li{
 	list-style: none;
 	float: left;
 	padding: 20px;
-	margin-left: 10%;
+}
+.cabecera li:hover{
+	background:#F12C3C;
 }
 
 .contenedor-principal{
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 
 .contenedor-principal img{
 	width: 100%;
 }
+
 .contenedor{
-	width: 100%;
-	background: blue;
+	margin-top:-5px;
 }
 
 .contenedor article{
@@ -51,15 +65,5 @@
 	float: left;
 }
 
-.pie{
-	width: 100%;
-	background: black;
-	color:#fff;
-	box-sizing:border-box;
-	padding: 30px;
-	text-align: center;
-}
 
-.pie footer{
-	margin-top:10%;
-}
+
