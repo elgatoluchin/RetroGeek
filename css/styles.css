@@ -5,11 +5,14 @@
 	padding: 0;
 }
 
+/**
+	Cabecera,menu & imagen
+*/
 .cabecera{
 	width: 100%;
 	background:#091229;
 	float: left;
-	
+	background:	
 }
 
 .cabecera h1{
@@ -17,7 +20,7 @@
 	float: left;
 	margin-left:8%;
 	margin-top:10px; 
-		font-size: 33px;
+	font-size: 33px;
 }
 
 .cabecera nav{
@@ -36,6 +39,11 @@
 	float: left;
 	padding: 20px;
 }
+
+.cabecera a{
+	text-decoration: none;
+}
+
 .cabecera li:hover{
 	background:#F12C3C;
 }
@@ -79,16 +87,32 @@
 .contenedor-principal img{
 	width: 100%;
 }
+/**
+	Fin cabecera & imagen
+*/
 
 .contenedor{
 	margin-top:-5px;
 }
 
 .contenedor article{
-	width: 50%;
-	background:peru;
+	background:#E45932;
+	width: 33.33%;
 	float: left;
+	padding:30px;
+	box-sizing:border-box;
+	height: 200px;
 }
 
+.contenedor article h2{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.contenedor article img{
+	width:30%;
+}
 
-
+.contenedor article p{
+	padding: 10px;
+	text-align: center;	
+}
